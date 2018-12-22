@@ -1,0 +1,44 @@
+.text_center {
+	text-align: center;
+}
+#slider_top {
+	background: url(../img/h_bg.jpg)no-repeat center center;
+	height: 715px;
+	padding-top: 140px;
+}
+
+.title_h {
+	h1 {
+		font-family: Gotham Pro, $font-system;
+		font-size: 2.625em;
+		font-weight: 900;
+		color: #1856c5;
+
+		span {
+			font-family: Gotham Pro, $font-system;
+			font-weight: 500;
+			color: #fe1c1d;
+			position: relative;
+
+			&:before {
+				content: ' ';
+				position: absolute;
+				bottom: -20px;
+				width: 25%;
+				border-bottom: 4px solid #1856c5;
+			}
+
+		}
+
+	}
+
+	p {
+		font-family: Montserrat, $font-system;
+		font-size: 22px;
+		color: #5c5c5c;
+		font-weight: 700;
+		padding-top: 5px;
+   		margin: 0;
+	}
+
+}

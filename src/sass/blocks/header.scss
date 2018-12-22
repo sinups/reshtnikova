@@ -1,21 +1,22 @@
 header {
 	background: #f4f7fd;
-	padding-top: 35px;
+	padding-top: 40px;
+	box-sizing: border-box;
 
 	.navigation {
 		display: flex;
 
 		.logo {
-			width: 40%;
+			width: 50%;
 			display: flex;
 			justify-content: flex-start;
-			line-height: 60px;
 			float: left;
+
 		}
 
 		.phone {
 			align-self: center;
-			width: 60%;
+			width: 50%;
 			display: flex;
 			justify-content: flex-end;
 			align-self: center;
@@ -24,9 +25,10 @@ header {
 				display: flex;
 				align-self: center;
 				position: relative;
-				width: 40%;
+				margin-right: 30px;
 
 				a {
+					font-family: Gotham Pro , $font-system;
 					font-size: 23px;
 					font-weight: bold;
 					color: #000;
@@ -35,7 +37,7 @@ header {
 					align-self: center;
 
 					i {
-						margin-right: 15px;
+						margin-right: 13px;
 					}
 
 					&:hover {
@@ -46,7 +48,10 @@ header {
 
 				span {
 					position: absolute;
-					top: -30px;
+					top: -20px;
+					right: 0;
+					font-family: Gotham Pro , $font-system;
+					font-weight: 300;
 					font-size: 11px;
 				}
 
@@ -58,15 +63,18 @@ header {
 			display: flex;
 			justify-content: center;
 			line-height: 40px;
-
 			background-image:linear-gradient(90deg, rgb(89, 142, 255) 0%, rgb(155, 183, 251) 100%);
+			box-shadow: 3px 5px 9px 0px #bababa73;
 			height: 40px;
 			border-radius:30px;
 			a {
 				color: #fff;
 				display: flex;
-				padding: 0px 20px;
+				padding: 0px 50px;
 				text-decoration: none;
+				font-family: Gotham Pro , $font-system;
+				font-weight: 500;
+				font-size: 14px;
 			}
 		}
 
@@ -76,14 +84,16 @@ header {
 		width: 100%;
 		display: flex;
 		justify-content: flex-end;
-		height: 35px;
+		padding: 10px 0 ;
+		font-family: Gotham Pro , $font-system;
 		a{
 			font-size: 16px;
 			text-decoration: none;
 			color: #000;
 			text-transform: lowercase;
+			font-weight: 300;
 			&.active {
-				font-weight: bold;
+				font-weight: 900;
 				color: #ae2928;
 			}
 		}
