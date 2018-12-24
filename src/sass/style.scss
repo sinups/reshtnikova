@@ -34,3 +34,22 @@
 .icon-reg4{
   @include sprite($reg4);
 }
+
+.icon-c_phone{
+  @include sprite($c_phone);
+}
+
+.icon-c_fb{
+  @include sprite($c_fb);
+}
+.icon-c_vk{
+  @include sprite($c_vk);
+}
+
+.icon-c_mail{
+  @include sprite($c_mail);
+}
+
+.icon-c_instagram{
+  @include sprite($c_instagram);
+}
