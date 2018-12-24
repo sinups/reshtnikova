@@ -14,14 +14,23 @@
   display: inline-block;
 }
 
-.icon-chrome {
-  @include sprite($chrome);
 
-}
-.icon-placeholder {
-  @include sprite($placeholder);
-}
 .icon-phone {
   @include sprite($phone);
 }
 
+.icon-reg1{
+  @include sprite($reg1);
+}
+
+.icon-reg2{
+  @include sprite($reg2);
+}
+
+.icon-reg3{
+  @include sprite($reg3);
+}
+
+.icon-reg4{
+  @include sprite($reg4);
+}
