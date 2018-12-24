@@ -1,6 +1,7 @@
 .text_center {
 	text-align: center;
 }
+
 #slider_top {
 	background: url(../img/h_bg.jpg)no-repeat center center;
 	height: 715px;
@@ -38,15 +39,92 @@
 		color: #5c5c5c;
 		font-weight: 700;
 		padding-top: 5px;
-   		margin: 0;
+		margin: 0;
 	}
 
 }
 
-.thinking {
-	background: url(../img/sec_3_bg.png)no-repeat center center;
+.title_h2 {
+	font-family: Montserrat, $font-system;
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 1.5;
+	color: #000;
+	margin: 40px 0 0 0;
 }
 
+.sub_title {
+	font-family: Montserrat, $font-system;
+	font-weight: 900;
+	font-size: 30px;
+	color: #1856c5;
+	margin: 0 0 60px 0;
+	position: relative;
+}
+
+.sub_title--line:before {
+	content: ' ';
+	position: absolute;
+	bottom: -20px;
+	width: 10%;
+	left: 50%;
+	border-bottom: 4px solid #fe1c1d;
+	transform: translate(-50%, 0%);
+}
+
+.sub_title--line__blue:before {
+	border-bottom-color: #1856c5;
+}
+
+.thinking {
+	background: url(../img/sec_3_bg.png)no-repeat center center;
+	background-size: cover;
+	padding: 80px 0px 100px 0px;
+
+	.think_list {
+		ul {
+			list-style: none;
+			font-family: Montserrat, $font-system;
+			font-weight: 400;
+			font-size: 16px;
+			color: #000;
+			padding-left: 0;
+
+			li {
+				list-style: none;
+				line-height: 3;
+				position: relative;
+				padding-left: 40px;
+
+				/*list-style-image: url('../img/li_style_1.png');*/
+
+				/*background:url('../img/li_style_1.png')  no-repeat 20px 30px;;*/
+				&:before {
+					content: '';
+					width: 30px;
+					height: 30px;
+					position: absolute;
+					background-image: url('../img/li_style_1.png');
+					background-size: cover;
+					background-position: center;
+					left: 0;
+					top: 8px;					/*transform: translateY(-50%);*/
+				}
+
+			}
+
+		}
+
+	}
+	.note_think {
+		list-style: none;
+			font-family: Montserrat, $font-system;
+			font-weight: 900;
+			font-size: 18px;
+			color: #000;
+	}
+
+}
 
 .about_me {
 	background: url(../img/b_s_bg.png)no-repeat center center;
@@ -55,15 +133,16 @@
 .course {
 	background: url(../img/curse_bg.png)no-repeat center center;
 }
-.after_course{
+
+.after_course {
 	background: url(../img/before_bg.png)no-repeat center center;
-	
 }
+
 .contacts {
-	background:#1aaaec;
+	background: #1aaaec;
 }
 
 footer {
-	background:#434343;
-	color:#fff;
+	background: #434343;
+	color: #fff;
 }
