@@ -14,6 +14,7 @@
 		font-size: 2.625em;
 		font-weight: 900;
 		color: #1856c5;
+		text-transform: uppercase;
 
 		span {
 			font-family: Gotham Pro, $font-system;
@@ -80,6 +81,7 @@
 	background: url(../img/sec_3_bg.png)no-repeat center center;
 	background-size: cover;
 	padding: 80px 0px 100px 0px;
+	height:815px;
 
 	.think_list {
 		ul {
@@ -125,9 +127,45 @@
 	}
 
 }
+.belive {
+	.title_b p{
+		font-family: Montserrat, $font-system;
+			font-weight: 500;
+			font-size: 18px;
+			color: #000;
+	}
+	.b_list {
+		border:1px dashed  #1aaaec;
+		padding:40px 25px;
+		line-height: 2;
+		ul {
+			list-style:none;
+			padding: 0;
+			li {
+			font-family: Montserrat, $font-system;
+			font-weight: 700;
+			font-size: 18px;
+			color: #000;
+			text-transform: uppercase;
+			}
+		}
+
+	}
+	.b_note {
+		color: #2f66ce;
+		font-family: Montserrat, $font-system;
+			font-weight: 700;
+			font-size: 18px;
+			text-transform: uppercase;
+			margin: 40px 0;
+	}
+}
+
 
 .about_me {
 	background: url(../img/b_s_bg.png)no-repeat center center;
+	background-size: cover;
+	min-height: 730px;
 }
 
 .course {
@@ -145,4 +183,14 @@
 footer {
 	background: #434343;
 	color: #fff;
+	height: 105px;
+    .container {
+    	display: flex;
+    	    height: 100%;
+    }
+
+    p {
+		
+		align-self: center;
+    }
 }
